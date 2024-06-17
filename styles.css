@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background */
+}
+
+.large-glowing-button {
+    padding: 40px 80px;
+    font-size: 48px;
+    color: #fff;
+    background-color: #1e90ff; /* Blue button */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(30, 144, 255, 0.7);
+    transition: box-shadow 0.3s ease;
+}
+
+.large-glowing-button:hover {
+    box-shadow: 0 0 60px rgba(30, 144, 255, 1), 0 0 80px rgba(30, 144, 255, 0.9);
+}
